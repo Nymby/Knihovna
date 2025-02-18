@@ -1,0 +1,104 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to bottom, #ff7a18, #ff512f);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+
+        form {
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+ .containeros {
+	 background-color: #ff9c5b;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 400px;
+        }
+        .form-group {
+            position: relative;
+            margin-bottom: 15px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px 15px 10px 40px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ffc796; /* Peach-like color */
+            outline: none;
+        }
+
+        .form-group p {
+            position: absolute;
+            top: 50%;
+            left: 15px;
+            transform: translateY(-50%);
+            font-size: 18px;
+            color: #ff743f;
+        }
+
+        .options {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+            color: white;
+        }
+
+        .options a {
+            color: white;
+            text-decoration: none;
+			padding-top: 15px;
+        }
+
+        .options a:hover {
+            text-decoration: underline;
+        }
+
+        .btn-submit {
+            background-color: #7b1717;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            text-align: center;
+            width: 100%;
+            margin-top: 15px;
+        }
+
+        .btn-submit:hover {
+            background-color: #5f1010;
+        }  
+.modal-content.custom-content {
+    padding: 0;
+    display: flex;
+    background-color: transparent;
+    border: none;
+}
+
+.modal-body.custom-body {
+    padding: 0;
+    display: flex;
+    background-color: transparent;
+    border: none;
+}
